@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon -r dotenv/config src/app.js -e js",
     "start": "node -r dotenv/config",
+    "crash": "npx nodemon -x 'node -r dotenv/config src/app.js || touch app.js' -e hbs,html,js,.env",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
