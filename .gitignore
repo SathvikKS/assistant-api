@@ -1,0 +1,6 @@
+bulb.json
+devicecredentials.json
+node_modules/
+.env
+oAuth.json
+src/assistant/tokens.json
